@@ -1,0 +1,90 @@
+@media (max-width: 600px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 620px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 450px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body{
+  background-color: #F7F7F7;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container{
+
+  margin: 0 auto;
+}
+
+.card{
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 2px 2px #B9B9B9;
+  background-color: white;
+  margin-top: 10px;
+}
+
+h1{
+  color: #DD5555;
+  font-family: 'Mali', cursive;
+}
+
+h2{
+  color: #7D87A9;
+  font-size: smaller;
+}
+
+p{
+  color: #7D87A9;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+#image{
+  width: 350px;
+  border-radius: 50%
+}
+
+#table{
+  background-color: white
+
+}
+
+table{
+  width: 250px;
+  text-align: center;
+}
+
+table > h3{
+  font-size: 1em;
+}
+
+a:hover{
+  color: #DD5555;
+
+}
+
+.image_small {
+  width: 150px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 75px;
+}
