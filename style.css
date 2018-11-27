@@ -24,8 +24,7 @@ body{
 }
 
 .container{
-
-  margin: 0 auto;
+  padding: 35px;
   color: #283044;
 }
 
@@ -60,11 +59,27 @@ a:hover{
 
 #image{
   width: 350px;
-  border-radius: 50%
+  border-radius: 50%;
+
+  position: relative;
+  margin: 13px;
 }
 
 #image:hover{
   opacity: 0.8;
+}
+
+.bottom-card{
+  margin-bottom: 35px;
+}
+
+.circle-header{
+  width: 376px;
+  height: 376px;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+  margin-top: 35px;
 }
 
 .fab{
@@ -75,20 +90,6 @@ a:hover{
   color: #58355E;
   font-weight: bolder;
 }
-
-table{
-  width: 85%;
-  border-spacing: 50px;
-  background-color: #F7F7F7;
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
-
-#table > h2{
-  font-size: 1.5em;
-}
-
-
 
 .image_small {
   width: 150px;
